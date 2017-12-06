@@ -1,5 +1,5 @@
 # NF92-Auto-Ecole
-Lien du site : https://hugofloter.github.io/NF92-Site-administration-Auto-Ecole/Site/
+Lien du site :  https://hugofloter.github.io/NF92-Auto-Ecole/Site/
 TP : NF92 			                                                    
 Sujet : Site pour gérer une Auto_Ecole			                                   *
 PAIGNEAU Hugo 		                                                             *
