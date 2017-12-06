@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html
+    ; charset=UTF-8" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <title>Accueil Auto-Ecole</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+
+  <body>
+    <div id="header-wrapper">
+      <div id="header" class="container">
+          <h1 id="titre"><b> ~ Auto-école de l'UTC ~ </b></h1>
+          <div id="headerb" class="containerb">
+            <span>
+              <select id="language">
+                <option value="Fr" class="button" selected="selected" id="fr">Français</option>
+                <option value="Es" class="button" id="es">Espagnol</option>
+              </select>
+            </span>
+          </div>
+      </div>
+    </div>
+
+    <br>
+    <p id="intro"> <b>Bonjour et bienvenue sur le site de gestion de votre auto-école! Plusieurs possibilités s'offrent à vous sur cette interface.</b></p>
+
+    <div>
+    <a href="ajout_eleve.html" class="button" id="ajout_eleve"> * Ajouter un élève * </a>
+    <p id ="texte_ajout_eleve"> Vous pouvez dans un premer temps ajouter un élèvre s'étant inscrit à l'auto école. Rien de plus simple pour ceci, il suffit de vous rendre dans "Inscrire un élève".
+    Pour la suite, il vous est demandé d'entrer un nom, un prénom et une date de naissance. </p>
+    </div>
+    <div>
+    <a href="ajout_theme.html" class="button" id="ajout_theme"> * Ajouter un thème * </a>
+    <p id="texte_ajout_theme"> Les thèmes des questions du code de la route sont sujettes à de nombreuses modifications dans le temps. Il y a effectivement beaucoup de mise à jour réalisé, dans un
+    monde qui évolue chaque jour. Vous pouvez ainsi dans "Ajouter un thème" rentrer les caractéristiques d'un nouveau thème que vous souhaitez utiliser dans le cadre
+    de séance d'apprentissage au sein de l'auto-école.<br>
+    Cela permet également de récupérer un thème supprimé. </p>
+    </div>
+    <div>
+    <a href="ajout_seance.php" class="button" id="ajout_seance"> * Ajouter une séance *</a>
+    <p id="texte_ajout_seance"> Le site vous offre la possibilité d'ajouter une séance de code la route dans "Ajouter une séance". Ainsi s'organiser n'a jamais été aussi simple, vous aurez la possibilité
+    de créer une séance sur un thème défini à une date précise avec un nombre maximum de participants. Cela évitera tout défaut d'organisation en entrant dans la base de données toutes
+    les informations. </p>
+    </div>
+    <div>
+    <a href="inscription_eleve.php" class="button" id="inscription_seance"> * Inscription élève * </a>
+    <p id="texte_inscription_seance"> Une fois votre séance définie, vous pourrez ajouter les élèves voulant se présenter à la séance en question et ainsi ne pas dépasser le nombre maximum de participants.
+    En cas d'affluence maximum atteinte, le site vous indiquera automatiquement que l'inscription est refusée. </p>
+    </div>
+    <div>
+    <a href="validation_seance.php" class="button" id="noter_eleve"> * Noter un élève * </a>
+    <p id="texte_noter_eleve"> Après chaque séance de code de la route, comme vous en avez l'habitude, le participant vient à vous pour que vous lui indiquiez son nombre de fautes. Une fois connue
+    vous aurez la possibilité de rentrer ici dans "Noter un élève" le nombre de fautes réalisés par le participant. Cela permet à long terme de posséder un véritable suivi
+    de toutes les personnes passant le code au sein de votre auto-école. </p>
+    </div>
+    <div>
+    <a href="consultation_eleve.php" class="button" id="consultation_profil"> * Consultation profil * </a>
+    <p id="texte_consultation_profil"> Il est important de pouvoir à chaque instant accéder au profil de chaque élève. C'est pourquoi dans "Consultation élève", tout profil est accessible. Ce dernier affiche les
+    caractéristiques de l'élève en question. </p>
+    </div>
+    <div>
+    <a href="suppression_theme.php" class="button" id="supprimer_theme"> * Supprimer un thème * </a>
+    <p id="texte_supprimer_theme">Comme indiqué plus haut il existe de nombreux thèmes de code de la route avec beaucoup de modifications possibles. La page "Supprimer un thème" permet de temporairement ou pas
+    écarter un thème des possiblités envisageables dans "Ajouter une séance". </p>
+    </div>
+    <div>
+    <a href="visualisation_calendrier_eleve.php" class="button" id="visualisation_calendrier"> * Visualisation calendrier * </a>
+    <p id="texte_visualisation_calendrier">A tout moment dans "Visualisation calendrier" vous pouvez sélectionner le nom d'un élève et ainsi consulter son calendrier des prochaines séances où il a été inscrit. Cela permet de
+    pouvoir faire visualiser la participation, l'implication d'un élève en particulier.</p>
+    </div>
+    <div>
+    <a href="desincription_seance.php" class="button" id="desinscription_seance"> * Désinscription séance * </a>
+    <p id="texte_desinscription_seance"> Vous avez la possibilité de désinscrire, peu importe la raison, un élève d'une séance auquelle il s'est inscrit. Cela mettra à jour le nombre d'élèves inscrits à cette
+    séance.</p>
+    </div>
+    <div>
+    <a href="suppression_seance.php" class="button" id="suppression_seance"> * Suppression séance * </a>
+    <p id="texte_suppression_seance">Si une séance ne peut être assurée, elle doit être supprimée. C'est pourquoi dans "Suppression séance" cette action est réalisable de manière très simple en sélectionnant la
+    séance à supprimer. Elle désinscrit les élèves qui auraient du y participer par la même occasion.</p>
+    </div>
+    <div>
+    <a href="statistique_eleve.php" class="button" id="statistique_eleve"> * Statistique élève * </a>
+    <p id="texte_statistique_eleve"> Un compte rendu statistique pour chaque élève est disponible dans "Statistique élève". La page génère les statistiques de chaque élève de deux manières différentes : <br>
+    -Soit séance par séance <br>
+    -Soit par thème </p>
+    </div>
+  <footer>
+    @Vraiment pas de CHANCE
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>

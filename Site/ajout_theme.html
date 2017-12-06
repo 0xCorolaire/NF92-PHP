@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html
+    ; charset=UTF-8" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <title>Ajout thème</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+     #footer-wrapper{
+       position: relative;
+       padding: 0em 0em 0em 0em;
+       background: #111111 url(routea.jpg) no-repeat center;
+       background-size: cover;
+       border-radius:35px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="formulaire">
+      <h2>Ajouter un thème</h2>
+      <form action="ajouter_theme.php" method="POST">
+        <input type="text" name="nomt" maxlength="30" placeholder="Nom du Thème">
+        <textarea name="descriptif" placeholder="Description du thème" style="border-bottom: 1px solid #ddd; margin: 0px; width: 488px; height: 113px;"></textarea>
+        <div>
+        <input type="submit" value="Ajouter le thème" class="button">
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div id="footer-wrapper">
+        <div id="footer" class="container">
+          <h1 id="titre"><b> ~ Auto-école de l'UTC ~ </b></h1>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
