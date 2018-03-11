@@ -320,7 +320,7 @@ $result->execute(array(
 
 
 # NF92-Auto-Ecole
-Lien du site :  https://hugofloter.github.io/NF92-Auto-Ecole/Site/
+Lien du site :  https://hugofloter.github.io/NF92-PHP/Site/
 TP : NF92 			                                                    
 Sujet : Site pour gérer une Auto_Ecole			                                   *
 PAIGNEAU Hugo 		                                                             *
